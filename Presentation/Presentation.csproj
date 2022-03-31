@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F0ABD05-4F3B-46FE-A1CD-5A2D4515B5C3}</ProjectGuid>
+    <ProjectGuid>{5FA0987A-DDC4-4763-9CC4-078E03D22699}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Sistema_restaurante</RootNamespace>
-    <AssemblyName>Sistema_restaurante</AssemblyName>
+    <RootNamespace>Presentation</RootNamespace>
+    <AssemblyName>Presentation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -76,7 +76,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Data\Data.csproj">
       <Project>{7a98e161-1102-4544-be20-95f63dfd189e}</Project>
@@ -85,10 +84,6 @@
     <ProjectReference Include="..\Logic\Logic.csproj">
       <Project>{da323f7a-10e3-43d1-84e4-b27c0eacd64f}</Project>
       <Name>Logic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Presentation\Presentation.csproj">
-      <Project>{5fa0987a-ddc4-4763-9cc4-078e03d22699}</Project>
-      <Name>Presentation</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

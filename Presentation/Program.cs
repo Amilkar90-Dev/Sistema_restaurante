@@ -4,8 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-namespace Sistema_restaurante
+namespace Presentation
 {
     static class Program
     {
@@ -17,7 +16,7 @@ namespace Sistema_restaurante
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Data.ManualConnection());
+            Application.Run(new Form1());
         }
     }
 }
